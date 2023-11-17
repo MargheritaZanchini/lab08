@@ -70,7 +70,7 @@ public class DeathNoteImpl implements DeathNote {
     List<String> causesOfDeathList = new ArrayList<>();
     List<String> detailsList = new ArrayList<>();
 
-    long time = System.currentTimeMillis();
+    private long time = System.currentTimeMillis();
 
     public String getRule(int ruleNumber) {
         if(ruleNumber == 0){
