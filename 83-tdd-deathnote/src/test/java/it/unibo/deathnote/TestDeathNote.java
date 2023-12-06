@@ -100,7 +100,7 @@ class TestDeathNote {
             @Override
             public void execute() throws Throwable {
                 // TODO Auto-generated method stub
-                deathNote.writeDeathCause(details);
+                deathNote.writeDetails(details);
             }
         });
         deathNote.writeName(name);
